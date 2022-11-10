@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding:0;
+    outline:none;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+body{
+    background-color:#444649;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.container{
+    /* background-image:url("/public/images/weather-images.jpg"); */
+    background-repeat: no-repeat;
+    
+    width:90%;
+    margin:auto;
+    height:500px;
+}
+.weatherQuery{
+    /* background-color:; */
+}
+h1{
+    font-size:10vw;
+    background-image: url("images/weather-images.jpg");
+    background-size: cover;
+    -webkit-background-clip:text; 
+    color:transparent;
+}
+label{
+    font-weight:bolder;
+    font-size:3vw;
+    color:white;  
+}
+input[placeholder]{
+    font-weight:bolder;
+    font-size:2vw;
+    color:rgb(32, 39, 39); 
+}
+button{
+    font-size:2vw;
+    font-weight:bolder;
+    width:6vw;
+    height:4vw;
+    border-radius: 5px;
+    border-width:1px;
+    transition: all 600ms ease;
+}
+button:hover{
+    background-color:transparent;
+    color:white;
+}
